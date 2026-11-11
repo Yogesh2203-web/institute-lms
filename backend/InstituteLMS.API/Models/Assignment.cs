@@ -1,0 +1,2 @@
+namespace InstituteLMS.API.Models;
+public class Assignment { public int AssignmentId {get;set;} public int CourseId {get;set;} public int BatchId {get;set;} public string Title {get;set;} = ""; public string Description {get;set;} = ""; public DateTime DueDate {get;set;} public int TotalMarks {get;set;} public bool IsActive {get;set;} = true; }

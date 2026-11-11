@@ -1,0 +1,2 @@
+namespace InstituteLMS.API.Models;
+public class Trainer { public int TrainerId {get;set;} public int UserId {get;set;} public string Qualification {get;set;} = ""; public string Specialization {get;set;} = ""; public int ExperienceYears {get;set;} public bool IsActive {get;set;} = true; public User? User {get;set;} }

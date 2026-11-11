@@ -1,0 +1,2 @@
+namespace InstituteLMS.API.Models;
+public class ExamResult { public int ResultId {get;set;} public int ExamId {get;set;} public int StudentId {get;set;} public decimal ObtainedMarks {get;set;} public string ResultStatus {get;set;} = "Pending"; public DateTime PublishedAt {get;set;} = DateTime.UtcNow; }

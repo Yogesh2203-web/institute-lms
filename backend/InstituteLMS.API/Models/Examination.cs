@@ -1,0 +1,2 @@
+namespace InstituteLMS.API.Models;
+public class Examination { public int ExamId {get;set;} public int CourseId {get;set;} public int BatchId {get;set;} public string ExamName {get;set;} = ""; public DateTime ExamDate {get;set;} public int TotalMarks {get;set;} public int PassingMarks {get;set;} }

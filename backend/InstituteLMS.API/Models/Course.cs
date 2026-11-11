@@ -1,0 +1,2 @@
+namespace InstituteLMS.API.Models;
+public class Course { public int CourseId {get;set;} public string CourseName {get;set;} = ""; public string Description {get;set;} = ""; public decimal CourseFee {get;set;} public int DurationMonths {get;set;} public bool IsActive {get;set;} = true; public DateTime CreatedAt {get;set;} = DateTime.UtcNow; }

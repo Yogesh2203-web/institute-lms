@@ -1,0 +1,2 @@
+namespace InstituteLMS.API.Models;
+public class Student { public int StudentId {get;set;} public string StudentCode {get;set;} = ""; public int UserId {get;set;} public string Address {get;set;} = ""; public string Qualification {get;set;} = ""; public decimal? Percentage {get;set;} public int? PassoutYear {get;set;} public DateTime AdmissionDate {get;set;} = DateTime.UtcNow; public User? User {get;set;} }

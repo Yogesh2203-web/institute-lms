@@ -1,0 +1,2 @@
+namespace InstituteLMS.API.Models;
+public class Attendance { public int AttendanceId {get;set;} public int StudentId {get;set;} public int BatchId {get;set;} public DateTime AttendanceDate {get;set;} public string Status {get;set;} = "Present"; public string Remarks {get;set;} = ""; }
